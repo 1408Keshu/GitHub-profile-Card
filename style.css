@@ -1,0 +1,100 @@
+body{
+    margin: 30px;
+}
+.git{
+    display: flex;
+    align-items: center;
+}
+.git img{
+    width:60px;
+    border: hidden;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.form input{
+    width: 40vw;
+    height: 40px;
+    border: hidden;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+.form button{
+    width: 13vw;
+    height: 42px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.form button:hover{
+    background-color: rgb(89, 255, 125);
+    color: rgb(21, 91, 0);
+}
+.card{
+    margin:40px;
+    /*
+    background-color: rgb(77, 77, 77);
+    */
+    width: 60vw;
+    overflow: hidden;
+
+    height: 40vh;
+    display: flex;
+    gap: 30px;
+    
+}
+#image{
+    /* border: 2px dotted white; */
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    place-content: center;
+    place-items: center;
+    position: relative;
+}
+
+img{
+    z-index: 1;
+    border: 3px double white;
+    border-radius: 10px;
+}
+
+/* #img::before{
+    content: '';
+    position: absolute;
+    width: 200px;
+    background-image: linear-gradient(180deg,rgb(42, 192, 241),rgb(232, 43, 249));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+    filter: blur(1em);
+    
+}
+@keyframes rotBGimg{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#img::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    inset: 5px;
+    border-radius:15px ;
+} */
