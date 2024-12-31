@@ -71,7 +71,40 @@ img{
     border: 3px double white;
     border-radius: 10px;
 }
+@media screen and (max-width:600px){
+    .card{
+        flex-direction:column;
+        width:90vw;
+    }
+    #image{
+        width: 150px;
+        height: 150px;
+    }
+    #discription{
+        width: 80vw;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }   
+    .form{
+        flex-direction: column;
+    }
+     .form input{
+        width: 80vw;
+    }
+    .form button{
+        width: 80vw;
+    }
+    .git img{
+        width: 100px;  
+        height:  100px  
+    }
 
+
+
+
+}
 /* #img::before{
     content: '';
     position: absolute;
